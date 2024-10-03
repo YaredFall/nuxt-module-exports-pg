@@ -17,4 +17,4 @@ export default createConfigForNuxt({
 })
   .append(
     // your custom flat config here...
-  )
+  ).removeRules('vue/multi-word-component-names')
