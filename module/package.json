@@ -10,6 +10,10 @@
       "types": "./dist/types.d.ts",
       "import": "./dist/module.mjs",
       "require": "./dist/module.cjs"
+    },
+    "./components": {
+      "types": "./dist/runtime/components/index.d.ts",
+      "import": "./dist/runtime/components/index.js"
     }
   },
   "main": "./dist/module.cjs",
